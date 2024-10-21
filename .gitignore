@@ -4,8 +4,11 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+
+### added by aca
 .mvn/
 .target/
+
 
 ### STS ###
 .apt_generated
