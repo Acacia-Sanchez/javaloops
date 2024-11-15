@@ -12,13 +12,13 @@ import java.util.Arrays;
 import java.util.List;
 
 @SpringBootTest
-class javaLoopsApplicationTests {
+class JavaLoopsApplicationTests {
 
 		// la siguientes 5 líneas instancia una sola vez para todos los test que se hagan después
-	private javaLoopsApplication javaLoops;
+	private JavaLoopsApplication javaLoops;
 	@BeforeEach
     public void init() {
-        this.javaLoops = new javaLoopsApplication(); 
+        this.javaLoops = new JavaLoopsApplication(); 
     }
 		// aquí termina la instanciación de una sola vez
 
